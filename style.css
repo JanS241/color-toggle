@@ -1,0 +1,77 @@
+.li-default {
+    background-color: #fff;
+}
+
+body { 
+    font-family : arial;
+    font-size : 12px;
+    background-color : #ece3e3;
+}
+
+
+
+.btn-toggle-nav {
+width: 40px;
+height : 40px;
+margin-left: 5px;
+/*background-image:url(image/menu.png);*/
+background-repeat: no-repeat;
+background-size:  90%;
+background-position: center;
+cursor: pointer;
+
+}
+
+.nav-sidebar {
+    width: 50px;
+}
+
+.nav-sidebar ul{
+    list-style-position:inside;
+    list-style: none;
+    padding: 0px;
+    width: 0px;
+    height  : 250px;
+    visibility: hidden;
+    transition: width 2s;    
+}
+
+.nav-sidebar li{
+    border: 4px;
+    border-color: black;
+    width: 1p00x;                 
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-sidebar ul li {
+    background-color: rgb(141, 55, 55);
+    text-align: center;
+
+}
+#btn0{
+    background-color: #ece3e3;
+}
+#btn1{
+    background-color: aqua;
+    
+}
+#btn2{
+    background-color: green;
+}
+#btn3{
+    background-color: orange;
+}
+#btn4{
+    background-color: purple;
+}
+#btn5{
+    background: red;
+}
+
+#colorChoice{
+ font-size : 18px;
+ font-weight: bold;
+ text-align: center;
+}
